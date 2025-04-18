@@ -14,5 +14,5 @@ public class LectureProgress extends BaseModel{
     private Student student;
     @ManyToOne
     private Lecture lecture;
-    private double watchedSeconds;
+    private Double watchedSeconds;
 }

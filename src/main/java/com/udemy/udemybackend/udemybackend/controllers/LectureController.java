@@ -41,7 +41,5 @@ public class LectureController {
             uploadLectureResponseDTO.setMessage("Lecture Failed to Upload!!");
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(uploadLectureResponseDTO);
         }
-
-
     }
 }
