@@ -17,7 +17,7 @@ public class Lecture extends BaseModel{
     private String description;
     @ManyToOne
     private Instructor instructor;
-    private String videoUrl;
+    private String videoUrl;  // This is the S3/local path or streaming URL
     @ManyToOne
     @JoinColumn(name = "course_module")
     private CourseModule module;
